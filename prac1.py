@@ -41,6 +41,7 @@ inicio = 0
 final = 2 * np.pi
 
 # Genera la lista de valores
+#Esto del linspace cambiar por sumar un delta de (inicio+final)/1000
 t = np.linspace(inicio, final, num=1000)
 print("Función f con inicio=" + inicio.__str__() + " y final=" + final.__str__())
 y = apply_function_to_points(t, f)
